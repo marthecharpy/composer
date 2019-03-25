@@ -1,0 +1,16 @@
+{
+    "name": "marthe/composer-project",
+    "description": "projet quete composer",
+    "authors": [
+        {
+            "name": "marthecharpy",
+            "email": "marthe.charpy@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {"app\\Wcs\\": "src/Wcs"}
+	}
+}
